@@ -69,6 +69,7 @@ class ViewController: UIViewController, UITableViewDelegate {
     
     func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
           TimeLineCell.animate(cell)
+        
     }
          
     override func didReceiveMemoryWarning() {
